@@ -1,0 +1,5 @@
+echo "-----> Setting Ruby version to: \\\"3\.0\.0\\\""
+RY_RUBY="3\.0\.0"
+if \[ -n "\$RY_RUBY" \]; then
+  ry use \$RY_RUBY \|\| exit 1
+fi

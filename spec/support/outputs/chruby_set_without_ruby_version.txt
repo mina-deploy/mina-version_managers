@@ -1,0 +1,2 @@
+Task 'chruby:set' needs a Ruby version as an argument\.
+Example: invoke :'chruby:set', 'ruby-2.4'

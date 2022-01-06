@@ -1,0 +1,1 @@
+ry path hasn't been set \(check :ry_path variable\)

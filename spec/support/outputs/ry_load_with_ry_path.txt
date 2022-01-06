@@ -1,0 +1,8 @@
+echo "-----> Loading ry environment"
+if \[\[ ! -e "\$HOME/\.local/bin" \]\]; then
+  echo "! ry not found"
+  echo "! If ry is installed, check your :ry_path variable."
+  exit 1
+fi
+export PATH="\$HOME/\.local/bin:\$PATH"
+eval "\$\(ry setup\)"

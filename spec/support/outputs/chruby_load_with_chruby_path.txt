@@ -1,0 +1,6 @@
+echo "-----> Loading chruby environment"
+if \[\[ ! -s "mypath/chruby\.sh" \]\]; then
+  echo "! chruby\.sh init file not found"
+  exit 1
+fi
+source mypath/chruby\.sh

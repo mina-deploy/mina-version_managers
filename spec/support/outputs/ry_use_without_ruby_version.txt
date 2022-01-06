@@ -1,0 +1,9 @@
+Task 'ry:use' without an argument will use default Ruby version\.
+.*
+.*
+.*
+echo "-----> Setting Ruby version to: \\"\*\*not specified\*\*\\""
+RY_RUBY=""
+if \[ -n "\$RY_RUBY" \]; then
+  ry use \$RY_RUBY \|\| exit 1
+fi

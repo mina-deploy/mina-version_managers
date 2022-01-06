@@ -1,0 +1,1 @@
+RVM path hasn't been set \(check :rvm_use_path variable\)
