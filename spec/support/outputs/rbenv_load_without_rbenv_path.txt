@@ -1,0 +1,1 @@
+rbenv path hasn't been set \(check :rbenv_path variable\)

@@ -1,0 +1,2 @@
+echo "-----> Setting Ruby version to: \\"123\\""
+chruby "123" \|\| exit 1

@@ -1,0 +1,1 @@
+chruby path hasn't been set \(check :chruby_path variable\)

@@ -1,0 +1,9 @@
+echo "-----> Loading rbenv environment"
+export RBENV_ROOT="\$HOME/\.rbenv"
+export PATH="\$HOME/\.rbenv/bin:\$PATH"
+if ! which rbenv >/dev/null; then
+  echo "! rbenv not found"
+  echo "! If rbenv is installed, check your :rbenv_path variable\."
+  exit 1
+fi
+eval "\$\(rbenv init -\)"

@@ -1,0 +1,32 @@
+require: rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - vendor/bundle/**/*
+  TargetRubyVersion: 2.5
+
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - 'spec/**/*.rb'
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/LeadingSubject:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
